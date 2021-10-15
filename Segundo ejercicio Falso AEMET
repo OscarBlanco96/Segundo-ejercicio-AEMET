@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Falso AEMET</title>
+</head>
+<body>
+<h2>Ver el clima de</h2>
+    <form method="GET" action="http://www.aemet.es/es/buscador">
+        <input type="radio" id="madrid" name="str" value="MADRID">
+        <label for="madrid">Madrid</label><br>
+        <input type=radio id="Barcelona" name="str" value="BARCELONA">
+        <label for="Barcelona">Barceona</label><br>
+        <input type="radio" id="Sevilla" name="str" value="SEVILLA">
+        <label for=Sevilla>Sevilla</label><br>
+        <input type="submit" value="Buscar">
+
+        
+        <br/>
+    </form>
+
+
+
+
+</body>
+</html>
